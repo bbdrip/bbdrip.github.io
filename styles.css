@@ -6,14 +6,16 @@ body {
 h1 {
     text-align: center;
     font-style: sans-serif;
+    font-size: x-large;
     color: darkred ;
     margin: auto;
     padding-top: 60px;
 }
-
+h2 {
+    text-align: left 10px;
+}
 p {
     text-align:  center;
-    font-family: fantasy;
     font-style: sans-serif;
     color:black
 }
