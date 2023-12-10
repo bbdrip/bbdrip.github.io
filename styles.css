@@ -4,7 +4,7 @@ body {
 }
 h1 {
     text-align: center;
-    width: 100%;
+    max-width: 100%;
     font-style: sans-serif;
     color: whitesmoke ;
     padding-top: 60px;
