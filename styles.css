@@ -6,7 +6,7 @@ body {
 h1 {
     text-align: center;
     font-style: sans-serif;
-    background-color: crimson;
+    background: crimson;
 }
 
 p {
