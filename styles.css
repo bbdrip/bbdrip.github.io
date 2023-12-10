@@ -1,14 +1,12 @@
 /* styles.css */
 body {
-    text-align: center;
-    background-color: white;
+    background-color: black;
 }
 h1 {
     text-align: center;
+    width: 100%;
     font-style: sans-serif;
-    font-size: x-large;
-    color: darkred ;
-    margin: auto;
+    color: whitesmoke ;
     padding-top: 60px;
 }
 img {
@@ -18,5 +16,5 @@ img {
 p {
     text-align:  center;
     font-style: sans-serif;
-    color:black
+    color:whitesmoke
 }
