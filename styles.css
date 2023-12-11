@@ -1,7 +1,7 @@
 /* styles.css */
 body {
     background-image: url(images/triptych.jpg);
-    background-size: 100vh 100vw;
+    background-size: 100% auto;
     background-color: black;
     background-position: center;
     background-repeat: no-repeat;
