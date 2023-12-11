@@ -4,7 +4,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-image: url('images/triptych.jpg');
-    background-size: cover auto;
+    background-size:100vw 100vw;
     background-position: center;
     background-repeat: no-repeat;
   }
