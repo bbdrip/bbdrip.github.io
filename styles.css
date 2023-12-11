@@ -6,7 +6,7 @@ html {
 }
 body {
     /* Set the background image */
-    background-image: url(images/triptych.jpg); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-image: url(images/triptych.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
