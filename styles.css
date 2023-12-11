@@ -1,11 +1,11 @@
 /* styles.css */
-body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-image: url('images/triptych.jpg');
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.bg {
+    display: block;
+      height: 100%;
+      left: 0;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 0;
   }
-  
