@@ -1,3 +1,7 @@
 /* styles.css */
-
+body {
+    background-image: url(images/triptych.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
   
