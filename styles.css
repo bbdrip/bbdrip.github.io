@@ -6,9 +6,7 @@ html {
 }
 body {
     /* Set the background image */
-    background-image: url(images/triptych.jpg);
     background-size: cover; 
-    max-width: 100%;
     background-position: center; 
     background-repeat: no-repeat; 
     background-color: black; 
