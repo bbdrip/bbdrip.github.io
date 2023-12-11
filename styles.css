@@ -1,4 +1,8 @@
 /* styles.css */
+
+html {
+    background-image: image(img);
+}
 body {
     background-color: black;
 }
