@@ -1,6 +1,6 @@
 /* styles.css */
 html {
-    background-image: url(images/triptych.jpg);
+    background: black;
     height: 100%;
     overflow: hidden;
 }
