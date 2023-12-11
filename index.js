@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const canvas = document.getElementById("matrixRainCanvas");
+    const canvas = document.getElementById("Matrix");
     const context = canvas.getContext("2d");
 
     // Set canvas dimensions to match the viewport
