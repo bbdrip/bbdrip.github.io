@@ -28,7 +28,7 @@ const draw = () => {
 	
 	context.fillStyle = '#ff0000';
 	context.font = fontSize + 'px monospace';
-};
+
 
 	for(let i = 0; i < rainDrops.length; i++)
 	{
@@ -42,5 +42,5 @@ const draw = () => {
         }
 		rainDrops[i]++;
 	}
-
+};
 setInterval(draw, 60);
