@@ -28,8 +28,7 @@ for( let x = 0; x < columns; x++ ) {
 const draw = () => {  
   
 
-	context.fillRect(0, 0, canvas.width, canvas.height);
-	
+    
 	context.fillStyle = '#ff0000';
 	context.font = fontSize + 'px monospace';
 
