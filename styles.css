@@ -14,20 +14,3 @@ body {
     padding: 0;
     height: 100vh;
 }
-
-#overlay {
-    background-image: url(/images/triptych1920.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    font-size: 16px;
-  }
