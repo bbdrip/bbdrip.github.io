@@ -27,7 +27,7 @@ for( let x = 0; x < columns; x++ ) {
 
 const draw = () => {  
   
-	context.fillStyle = rgba(0, 0, 0, 0.05);
+	context.fillStyle = 'rgba(0, 0, 0, 0.05)';
 	context.fillRect(0, 0, canvas.width, canvas.height);
 	
 	context.fillStyle = '#ff0000';
