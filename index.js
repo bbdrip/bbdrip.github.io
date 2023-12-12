@@ -26,7 +26,7 @@ for( let x = 0; x < columns; x++ ) {
 
 const draw = () => {  
   
-	context.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
+	context.fillRect(backgroundImage, 0, 0, canvas.width, canvas.height);
 	context.fillRect(0, 0, canvas.width, canvas.height);
 	
 	context.fillStyle = '#ff0000';
