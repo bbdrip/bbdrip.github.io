@@ -22,31 +22,11 @@ for( let x = 0; x < columns; x++ ) {
 }
 
 const draw = () => {  
-        // Use a variable to control the alpha (opacity) value
-        let alpha = 0.05;
-      
-        // Increment the alpha value to create the fading effect
-        alpha += 0.001;
-      
-        // Set the global alpha (opacity) for the entire canvas
-        context.globalAlpha = alpha;
-      
-        // Draw the background image
-        context.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
-      
-        // Reset the global alpha
-        context.globalAlpha = 1;
-      };
-      
+
       // Preload the background image
       const backgroundImage = new Image();
       backgroundImage.src = 'images/triptych.jpg'; // Replace with the path to your background image
-      
-      backgroundImage.onload = () => {
-        // Start the animation loop after the background image is loaded
-        requestAnimationFrame(draw);
     
-      
 	context.fillStyle = 'rgba(0, 0, 0, 0.05)';
 	context.fillRect(0, 0, canvas.width, canvas.height);
 	
