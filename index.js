@@ -27,9 +27,10 @@ for( let x = 0; x < columns; x++ ) {
 
 const draw = () => {  
   
+    context.fillStyle = 'rgba(0, 0, 0, 0.05)';
 
     
-	context.fillStyle = '#ff0000';
+	context.fillStyle = '#EAE4DB';
 	context.font = fontSize + 'px monospace';
 
 
