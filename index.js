@@ -28,6 +28,9 @@ const draw = () => {
 	
 	context.fillStyle = '#ff0000';
 	context.font = fontSize + 'px monospace';
+    context.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
+    const backgroundImage = new Image();
+    backgroundImage.src = 'images/triptych.jpg';
 
 
 	for(let i = 0; i < rainDrops.length; i++)
