@@ -1,8 +1,12 @@
 /* styles.css */
-body {
-    background-image: url(/images/triptych.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+html {
+    background: black;
+    height: 100%;
     overflow: hidden;
-  }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
