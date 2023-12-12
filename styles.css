@@ -16,6 +16,10 @@ body {
 }
 
 #overlay {
+    background-image: url(/images/triptych1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     left: 0;
