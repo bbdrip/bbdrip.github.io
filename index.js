@@ -22,11 +22,7 @@ for( let x = 0; x < columns; x++ ) {
 }
 
 const draw = () => {  
-
-      // Preload the background image
-      const backgroundImage = new Image();
-      backgroundImage.src = 'images/triptych.jpg'; // Replace with the path to your background image
-    
+  
 	context.fillStyle = 'rgba(0, 0, 0, 0.05)';
 	context.fillRect(0, 0, canvas.width, canvas.height);
 	
