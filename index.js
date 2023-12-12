@@ -8,6 +8,9 @@ const love = 'LOVE';
 const power = 'POWER';
 const pain = 'PAIN';
 
+const backgroundImage = new Image();
+backgroundImage.src = 'images/triptych.jpg'
+
 const alphabet = love + power + pain;
 
 const fontSize = 16;
