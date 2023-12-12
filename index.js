@@ -9,7 +9,8 @@ const power = 'POWER';
 const pain = 'PAIN';
 
 const backgroundImage = new Image();
-backgroundImage.src = 'images/triptych.jpg'
+backgroundImage.src = 'images/triptych.jpg';
+const pattern = context.createPattern(image, 'repeat');
 
 const alphabet = love + power + pain;
 
@@ -26,7 +27,7 @@ for( let x = 0; x < columns; x++ ) {
 
 const draw = () => {  
   
-	context.fillStyle = 'rgba(0, 0, 0, 0.05)';
+	context.fillStyle = pattern;
 	context.fillRect(0, 0, canvas.width, canvas.height);
 	
 	context.fillStyle = '#ff0000';
