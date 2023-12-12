@@ -13,6 +13,8 @@ const alphabet = love + power + pain;
 const fontSize = 16;
 const columns = canvas.width/fontSize;
 
+let charIndex = 0;
+
 const rainDrops = [];
 
 for( let x = 0; x < columns; x++ ) {
@@ -28,8 +30,10 @@ const draw = () => {
 
 	for(let i = 0; i < rainDrops.length; i++)
 	{
-		const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
+		const text = alphabet.charAt(charIndex);
 		context.fillText(text, i*fontSize, rainDrops[i]*fontSize);
+
+        charIndex = (charIndex + 1) % alphabet.length;
 		
 		if(rainDrops[i]*fontSize > canvas.height && Math.random() > 0.975){
 			rainDrops[i] = 0;
