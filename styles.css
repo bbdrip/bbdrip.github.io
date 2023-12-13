@@ -30,15 +30,3 @@ canvas {
     word-spacing: 66px;
     text-align: center;
 }
-
-#overlay-text a {
-    color: inherit; /* Inherit the color from the parent */
-    text-decoration: none; /* Remove the underline for links */
-}
-
-#overlay-text a img {
-    display: none; /* Initially hide the images */
-    width: 1920px; /* Set the width of the images */
-    height: 100vh; /* Set the height of the images */
-    /* Add any other styles you want for the images */
-}

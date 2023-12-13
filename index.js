@@ -5,11 +5,6 @@ setTimeout(function()  {
 	document.getElementById('overlay-text').style.display = 'block';
 }, 6000);
 
-function showImage(imageSrc) {
-	var imageElement = document.querySelector('#overlay-text a img[src="' + imageSrc + '"]');
-	imageElement.style.display = 'block';
-}
-
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
