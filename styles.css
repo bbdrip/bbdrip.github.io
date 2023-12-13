@@ -19,10 +19,6 @@ canvas {
     display: block;
 }
 
-audio {
-    display: none;
-}
-
 #overlay-text {
     display: none;
     position: absolute;
@@ -33,4 +29,8 @@ audio {
     font-size: 33px;
     word-spacing: 66px;
     text-align: center;
+}
+
+audio {
+    display: none;
 }
