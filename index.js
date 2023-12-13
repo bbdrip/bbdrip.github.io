@@ -1,6 +1,10 @@
 const canvas = document.getElementById('Matrix');
 const context = canvas.getContext('2d');
 
+setTimeout(function()  {
+	document.getElementById('overlay-text').style.display = 'block';
+}, 6000);
+
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
