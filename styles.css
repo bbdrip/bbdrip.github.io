@@ -19,6 +19,10 @@ canvas {
     display: block;
 }
 
+audio {
+    display: none;
+}
+
 #overlay-text {
     display: none;
     position: absolute;
