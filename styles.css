@@ -26,5 +26,7 @@ canvas {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 24px;
+    font-size: 33px;
+    word-spacing: 66px;
+    text-align: center;
 }
