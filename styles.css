@@ -37,9 +37,6 @@ canvas {
             margin: 0 66px;
             color: white;
             text-align: center;
-            top: 50%;
-            left: 50%;
-            position: absolute;
 }
 
 audio {
