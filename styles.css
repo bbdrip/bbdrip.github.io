@@ -33,10 +33,11 @@ canvas {
 
 #overlay-text a {
     cursor: pointer;
-            text-decoration: none;
-            margin: 0 33px;
-            color: white;
-            text-align: center;
+    text-decoration: none;
+    margin: 0 33px;
+    color: white;
+    text-align: center;
+    display: inline-block;
 }
 
 audio {
