@@ -1,6 +1,13 @@
 const canvas = document.getElementById('Matrix');
 const context = canvas.getContext('2d');
 
+document.getElementById('playButton').addEventListener('click', function() {
+	var audio = document.getElementById('audioPlayer');
+	audio.style.display = 'block';
+	audio.play();
+	this.style.display = 'none';
+});
+
 setTimeout(function()  {
 	document.getElementById('overlay-text').style.display = 'block';
 }, 6000);
