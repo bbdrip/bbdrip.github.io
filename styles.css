@@ -60,3 +60,12 @@ audio {
     width: 45px;
     cursor: pointer;
 }
+
+.cover {
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    max-height: 100vw;
+    width: 100%;
+    background: #000000;
+}
