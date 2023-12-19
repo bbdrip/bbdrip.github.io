@@ -43,3 +43,21 @@ canvas {
 audio {
     display: none;
 }
+
+
+.mute {
+    position: absolute;
+    bottom: 15px;
+    left: 19px;
+    width: 45px;
+    display: none;
+    cursor: pointer;
+}
+
+.unmute {
+    position: absolute;
+    bottom: 15px;
+    left: 19px;
+    width: 45px;
+    cursor: pointer;
+}
