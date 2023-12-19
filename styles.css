@@ -5,15 +5,6 @@ html {
     overflow: hidden;
 }
 
-body {
-    background-image: url(/images/triptych1920.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-}
 
 canvas {
     display: block;
