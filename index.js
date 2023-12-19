@@ -5,24 +5,6 @@ setTimeout(function()  {
 	document.getElementById('overlay-text').style.display = 'block';
 }, 6000);
 
-
-$(".mute").click(function(event) {
-
-	document.getElementById("debussy").muted = true;
-	$(this).hide();
-	$(".unmute").show();
-
-});
-
-$(".unmute").click(function(event) {
-
-	document.getElementById("debussy").muted = false;
-	$(this).hide();
-	$(".mute").show();
-
-});
-
-
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 

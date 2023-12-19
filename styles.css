@@ -5,6 +5,15 @@ html {
     overflow: hidden;
 }
 
+body {
+    background-image: url(/images/triptych1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
 
 canvas {
     display: block;
@@ -33,36 +42,4 @@ canvas {
 
 audio {
     display: none;
-}
-
-.mute {
-    position: absolute;
-    bottom: 15px;
-    left: 19px;
-    width: 45px;
-    display: none;
-    cursor: pointer;
-}
-
-.unmute {
-    position: absolute;
-    bottom: 15px;
-    left: 19px;
-    width: 45px;
-    cursor: pointer;
-}
-
-.cover {
-    overflow: hidden;
-    position: relative;
-    height: 100vh;
-    max-height: 100vw;
-    width: 100%;
-    background: #000000;
-    background-image: url(/images/triptych1920.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
 }
