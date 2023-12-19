@@ -1,18 +1,6 @@
 const canvas = document.getElementById('Matrix');
 const context = canvas.getContext('2d');
 
-const audio = document.getElementById('debussy');
-const muteButton = document.getElementById('muteButton');
-const unmuteButton = document.getElementById('unmuteButton');
-
-muteButton.addEventListener('click', function() {
-	audio.muted = true;
-});
-
-unmuteButton.addEventListener('click',function() {
-	audio.muted = false;
-});
-
 setTimeout(function()  {
 	document.getElementById('overlay-text').style.display = 'block';
 }, 6000);
