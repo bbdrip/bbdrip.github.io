@@ -11,15 +11,36 @@
     <body>
         <canvas id="Matrix"></canvas>
         <div id="overlay-text">
-            <a href="https://gallery.manifold.xyz/0x8fb6458bd22cade69af883d27fc0658e472c9514/1" target="_blank"><span>LOVE</span></a>
-            <a href="https://gallery.manifold.xyz/0x8fb6458bd22cade69af883d27fc0658e472c9514/2" target="_blank"><span>POWER</span></a>
-            <a href="https://gallery.manifold.xyz/0x8fb6458bd22cade69af883d27fc0658e472c9514/3" target="_blank"><span>PAIN</span></a>
+            <a href="#" data-image-path="/images/LOVE.jpg"><span>LOVE</span></a>
+            <a href="#" data-image-path="/images/POWER.jpg"><span>POWER</span></a>
+            <a href="#" data-image-path="/images/PAIN.jpg"><span>PAIN</span></a>
+        </div>
+        <div class ="overlay" id="imageOverlay">
+            <img src="" alt="Overlay Image">
         </div>
         <script src="./index.js"></script>
         <audio id="debussy" controls autoplay loop>
             <source src="music/clairdelune.mp3" type="audio/mp3">
             Your browser does not support this lovely music.
         </audio>
+        <script>
+            const overlayTextLinks = document.querySelectorAll('#overlay-text a');
+            const imageOverlay = document.getElementById('imageOverlay');
+            const overlayImage = imageOverlay.querySelector('img');
+    
+            overlayTextLinks.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent the default link behavior
+                    const imagePath = link.getAttribute('data-image-path');
+                    overlayImage.src = imagePath; // Set the image source
+                    imageOverlay.style.display = 'flex'; // Display the overlay
+                });
+            });
+    
+            imageOverlay.addEventListener('click', function() {
+                imageOverlay.style.display = 'none'; // Hide the overlay when clicked outside the image
+            });
+        </script>
     </body>
     </html>
     
