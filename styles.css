@@ -13,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    cursor: url('/images/cursor-dove-white.png');
 }
 
 canvas {
