@@ -33,7 +33,7 @@ canvas {
 }
 
 #overlay-text a {
-    cursor: pointer;
+    cursor: url('/images/link-cursor-48px.gif'), auto;
     text-decoration: none;
     margin: 0 33px;
     color: white;
