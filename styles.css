@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    cursor: url('/images/cursor-dove-white-26px.png'), auto;
+    cursor: url('/images/cursor-blood-26px.png'), auto;
 }
 
 canvas {
@@ -33,7 +33,7 @@ canvas {
 }
 
 #overlay-text a {
-    cursor: url('/images/link-cursor-heart-26px.png'), auto;
+    cursor: url('/images/cursor-dove-white-26px.png'), auto;
     text-decoration: none;
     margin: 0 33px;
     color: white;
