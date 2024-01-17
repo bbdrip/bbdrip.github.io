@@ -48,3 +48,5 @@ const draw = () => {
 	}
 };
 setInterval(draw, 60);
+
+// For R, I Love You. //
